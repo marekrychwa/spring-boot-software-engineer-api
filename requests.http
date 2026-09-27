@@ -3,3 +3,13 @@ GET http://localhost:8080
 
 ### GET Software Engineers List
 GET http://localhost:8080/api/v1/software-engineers
+
+###
+
+POST http://localhost:8080/api/v1/software-engineers
+Content-Type: application/json
+
+{
+  "name": "Alex",
+  "techStack": "kdb, databases, q"
+}
