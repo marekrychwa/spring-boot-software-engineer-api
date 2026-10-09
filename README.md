@@ -29,9 +29,9 @@ docker compose up -d
 ```
 
 ### 2. Run the Application
-
+```bash
 ./mvnw spring-boot:run
-
+```
 ## 📡 API Endpoints
 
 | Method | Endpoint | Description |
